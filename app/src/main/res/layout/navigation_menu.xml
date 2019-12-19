@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+
+    android:layout_gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivc_menu_profile_id"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:src="@drawable/prof">
+
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+
+        android:id="@+id/tv_menu_profile_name_id"
+        android:text="Saidur Rahman"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+
+    <LinearLayout
+        android:id="@+id/menu_my_account_ll_id"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/_20sdp"
+        >
+
+        <ImageView
+            android:src="@drawable/ic_acount"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:textSize="@dimen/_16sdp"
+            android:text="My Account"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:id="@+id/menu_view_club_ll_id"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/_20sdp"
+        >
+
+        <ImageView
+
+            android:src="@drawable/ic_menu"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:text="View Club"
+            android:textSize="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/menu_apply_club_ll_id"
+
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/_20sdp"
+        >
+
+        <ImageView
+            android:src="@drawable/ic_menu_camera"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:text="Product Photo"
+            android:textSize="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_pay_degree_ll_id"
+
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/_20sdp"
+
+        >
+
+        <ImageView
+            android:src="@drawable/ic_about"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:text="About"
+            android:textSize="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_log_out_ll_id"
+
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/_20sdp"
+        >
+
+        <ImageView
+            android:src="@drawable/ic_logout"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:text="Log out"
+            android:textSize="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
