@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#FDFCFC</color>
     <color name="colorBrown">#4B2010</color>
     <color name="colorGrey">#707070</color>
     <color name="colorBrownT">#FFD59E</color>
@@ -13,5 +13,11 @@
     <color name="darkgray">#6c6c6c</color>
     <color name="colorGreen">#1C9726</color>
     <color name="colorRed">#E73225</color>
+    <color name="toolbar_text_color">#ffffff</color>
 
+
+    <!--tab color-->
+    <color name="tabIndicatorColor">#e31722</color>
+    <color name="tabSelectedTextColor">#e31722</color>
+    <color name="tabTextColor">#ffffff</color>
 </resources>

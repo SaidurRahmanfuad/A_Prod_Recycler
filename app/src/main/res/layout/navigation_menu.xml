@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical"
 
+    android:background="@drawable/translogo"
     android:layout_gravity="center_horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="@dimen/_580sdp"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
@@ -25,15 +26,20 @@
         android:layout_marginTop="@dimen/_10sdp"
         android:layout_marginBottom="@dimen/_15sdp"
         android:layout_gravity="center_horizontal"
-        android:textSize="@dimen/_18sdp"
-        android:textStyle="bold"
-        android:fontFamily="sans-serif-black"
+        android:textSize="14sp"
+        android:textColor="@color/colorBlack"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
     </TextView>
 
+<View
+    android:background="@color/colorBlack"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_1sdp">
 
+</View>
 
     <LinearLayout
         android:id="@+id/menu_my_account_ll_id"
@@ -42,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
         >
 
         <ImageView
@@ -52,11 +58,13 @@
             />
 
         <TextView
-            android:textSize="@dimen/_16sdp"
+
             android:text="My Account"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlack"/>
     </LinearLayout>
 
     <LinearLayout
@@ -67,7 +75,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
         >
 
         <ImageView
@@ -79,8 +87,9 @@
 
         <TextView
             android:text="View Club"
-            android:textSize="@dimen/_16sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginStart="@dimen/_10sdp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </LinearLayout>
@@ -94,7 +103,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
         >
 
         <ImageView
@@ -105,8 +114,9 @@
 
         <TextView
             android:text="Product Photo"
-            android:textSize="@dimen/_16sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginStart="@dimen/_10sdp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </LinearLayout>
@@ -119,7 +129,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
 
         >
 
@@ -131,8 +141,9 @@
 
         <TextView
             android:text="About"
-            android:textSize="@dimen/_16sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginStart="@dimen/_10sdp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </LinearLayout>
@@ -156,13 +167,40 @@
 
         <TextView
             android:text="Log out"
-            android:textSize="@dimen/_16sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginStart="@dimen/_10sdp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             />
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/menu_add_id"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/_20sdp"
+        >
 
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:text="Add Product"
+            android:textSize="12sp"
+            android:textColor="@color/colorBlack"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
 </LinearLayout>
 
